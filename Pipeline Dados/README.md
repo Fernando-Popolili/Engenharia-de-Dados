@@ -33,3 +33,9 @@ Comandos utilizados:
 - Identificação de problemas  
 - Tratamento dos dados  
 - Criação de um novo CSV com as bases unidas  
+
+### 34. Processo ETL simplificado - Tornando o processo mais reutilizavel com classes e funções
+- Leitura dos dados  
+- Identificação de problemas  
+- Tratamento dos dados  
+- Criação de um novo CSV com as bases unidas  

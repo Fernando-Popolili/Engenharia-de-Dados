@@ -79,6 +79,12 @@ class Main:
         for doc in livros:
             lista_livros.append(doc)
         return lista_livros
+    
+    def filtrar_regex(self):                                               #2021 até 2029
+        query = {"Data da Compra": {"$regex" : "/202[1-9]"}}
+        lista_produtos = []
+        for doc in self.collection.find(query):
+            lista_produtos.append(doc)
 
     #Criar dataframe
     def criar_df(self, lista):
